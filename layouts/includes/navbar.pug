@@ -1,6 +1,13 @@
 .navbar
-  li: a(href="/") GAC
-  li: a(href="/team") Team
-  li: a(href="/team") Companies
+  .container
+    .row
+      .six.columns
+        .logo
+          a(href="/")
+            img(src="/img/logo.png")
+      .six.columns
+        ul
+          li: a(href="/team") Team
+          li: a(href="/portfolio") Portfolio
 
 .navbar-spacer

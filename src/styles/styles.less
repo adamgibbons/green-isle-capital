@@ -6,7 +6,7 @@ body {
 }
 
 .navbar-spacer {
-  height: 6.5rem;
+  height: 11.5rem;
 }
 .navbar {
   position: fixed;
@@ -14,17 +14,63 @@ body {
   left: 0;
   width: 100%;
   @media (min-width: 750px) {
-    background: #ddd;
-    height: 6.5rem;
-    li {
-      display: inline;
-      margin: 2px;
-      a {
-        padding: 1em;
-        text-decoration: none;
-        position: relative;
-        top: 1em;
+    background-color: #00A94F;
+    padding: 0 0 1em;
+    margin: 0;
+    .logo {
+      margin: 0;
+      padding: 0;
+      position: relative;
+      top: .5em;
+    }
+    ul {
+      text-align: right;
+      position: relative;
+      font-size: 1.1em;
+      top: 3.3em;
+      li {
+        display: inline;
+        a {
+          padding: 1em;
+          text-decoration: none;
+          color: white;
+        }
       }
     }
+  }
+}
+
+.footer {
+  address {
+    font-style: normal;
+  }
+  border-top: 1px solid #ddd;
+  margin-top: 2em;
+  font-size: .9em;
+  padding-top: 2em;
+}
+
+.img-container {
+  img {
+    max-width: 100%;
+  }
+}
+
+.short-profile {
+  .headshot {
+    margin-bottom: .5em;
+  }
+  .name {
+    font-size: 1.1em;
+    font-weight: 600;
+  }
+  .title {
+    
+  }
+  .email {
+    
+  }
+  .phone {
+    
   }
 }
