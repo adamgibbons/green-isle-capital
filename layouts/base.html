@@ -8,9 +8,6 @@ html(lang="en")
   body
     include includes/navbar.pug
 
-    h1=title
-    p=description
-
-    div!=contents
+    block content
 
     include includes/footer.pug

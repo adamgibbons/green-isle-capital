@@ -1,16 +1,8 @@
-doctype(html)
-html(lang="en")
-  head
-    meta(charset="UTF-8")
-    title=title
-    meta(name="description" content=description)
-    link(type="text/css" href="/styles/styles.css" rel="stylesheet")
-  body
-    include includes/navbar.pug
+extends base.html
 
-    h1=title
-    p=description
-
-    div!=contents
-
-    include includes/footer.pug
+block content
+  .container
+    .row
+      .twelve.columns
+        p this is team.html
+        div!=contents
