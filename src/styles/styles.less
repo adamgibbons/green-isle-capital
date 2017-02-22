@@ -1,6 +1,30 @@
+@import 'normalize.css';
+@import 'skeleton.css';
+
 body {
-  color: red;
-  h1, h2 {
-    color: blue;
+  font-size: 18px;
+}
+
+.navbar-spacer {
+  height: 6.5rem;
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  @media (min-width: 750px) {
+    background: #ddd;
+    height: 6.5rem;
+    li {
+      display: inline;
+      margin: 2px;
+      a {
+        padding: 1em;
+        text-decoration: none;
+        position: relative;
+        top: 1em;
+      }
+    }
   }
 }
