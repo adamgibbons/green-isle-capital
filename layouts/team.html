@@ -1,8 +1,42 @@
 extends base.html
 
+mixin short-profile(machineName, name, title, email, phone)
+  .short-profile
+    .headshot.img-container
+      a(href=`/team/${machineName}`)
+        img(src=`/img/${machineName}.jpg`)
+    .name=name
+    .title=title
+    .email
+      a(href=`mailto:#{email}`) #{email}
+    .phone=phone
+
 block content
   .container
+    h1 Our Team
+  .container
     .row
-      .twelve.columns
-        p this is team.html
-        div!=contents
+      .four.columns
+        +short-profile(
+          'carlos-nido',
+          'Carlos J. Nido',
+          'President/ Executive Producer',
+          'carlos@greeenislecapital.com',
+          '(787) 406-2717'
+        )
+      .four.columns
+        +short-profile(
+          'alberto-sanchez',
+          'Alberto Baco Sanchez',
+          'Financial Analyst',
+          'alberto@greenislecapital.com',
+          '(787) 243-9757'
+        )
+      .four.columns
+        +short-profile(
+          'agnes-becerra',
+          'Agnes Becerra',
+          'Accountant',
+          'agnes@greenislecapital.com',
+          '(787) 366-4008'
+        )
