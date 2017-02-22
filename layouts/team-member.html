@@ -1,0 +1,18 @@
+extends base.html
+
+block content
+  .container
+    .row
+      .seven.columns
+        .headshot.img-container
+          img(src=`/img/${machine_name}.jpg`)
+        div!=contents
+      .five.columns
+        p
+          strong #{name}
+          br
+          | #{position_title}
+          br
+          | #{phone}
+          br
+          | #{email}
