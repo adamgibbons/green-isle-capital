@@ -5,14 +5,11 @@ html(lang="en")
     title=title
     meta(name="description" content=description)
   body
-    header
-      p
-        a(href="/") Home
+    include includes/header
+
     h1=title
     p=description
 
     div!=contents
 
-    footer
-      p Generated with #{generator} &mdash;
-        a(href=url) #{url}
+    include includes/footer.pug
