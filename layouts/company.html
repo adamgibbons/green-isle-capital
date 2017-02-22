@@ -1,0 +1,19 @@
+doctype(html)
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    title=title
+    meta(name="description" content=description)
+    link(type="text/css" href="/styles/styles.css" rel="stylesheet")
+  body
+    header
+      p
+        a(href="/") Home
+    h1=title
+    p=date
+
+    div!=contents
+
+    footer
+      p Generated with #{generator} &mdash;
+        a(href=url) #{url}
