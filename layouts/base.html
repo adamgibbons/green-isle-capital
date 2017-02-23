@@ -5,9 +5,9 @@ html(lang="en")
     title=title
     meta(name="description" content=description)
     link(type="text/css" href="/styles/styles.css" rel="stylesheet")
-  body
-    include includes/navbar.pug
-
-    block content
+  body.site
+    main.site-content
+      include includes/navbar.pug
+      block content
 
     include includes/footer.pug
