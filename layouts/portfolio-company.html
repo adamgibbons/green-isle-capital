@@ -8,7 +8,8 @@ block content
           img(src=`/img/portfolio/${machine_name}.jpg`)
       .six.columns
         h1.slab=llc_name
-        p: strong=title
-        if url
-          p url: #{url}
+        h5=title
         div!=contents
+        if url
+          p Website: 
+            a(href=`http://${url}`) #{url}

@@ -4,7 +4,6 @@ llc_name: Pepo PS LLC
 description: This is the description
 layout: portfolio-company.html
 machine_name: pepo-ps
-url:
 ---
 
 The Fund loaned $717,500 for the filming and marketing of the movie Pepo Pal Senado.

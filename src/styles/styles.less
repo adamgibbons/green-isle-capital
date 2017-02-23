@@ -4,6 +4,13 @@
 
 @green: #00A94F;
 
+a {
+  color: darken(@green, 5%);
+  &:hover {
+    color: @green;
+  }
+}
+
 body.site {
   font-size: 18px;
   display: flex;
@@ -132,6 +139,9 @@ h1 {
     margin-bottom: 1em;
     padding-bottom: .66em;
     text-transform: uppercase;
+    a {
+      text-decoration: none;
+    }
   }
   .name {
     margin: .66em 0 0;
