@@ -2,7 +2,8 @@ extends base.html
 
 mixin company(human, llc, machine)
   .company
-    .llc=llc
+    .llc
+      a(href=`/portfolio/${machine}`) #{llc}
     .img-container
       img(src=`/img/portfolio/${machine}.jpg`)
     .name=human
