@@ -1,6 +1,6 @@
 ---
 title: Vico C- El Filósofo (2016)
-llc_name: TRAVICA LLC
+llc_name: Travica LLC
 description: This is the description
 layout: portfolio-company.html
 machine_name: travica

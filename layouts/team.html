@@ -13,8 +13,9 @@ mixin short-profile(machineName, name, title, email, phone)
 
 block content
   .container
-    h1 Our Team
-  .container
+    .row
+      .twelve.columns
+        h1.slab Our Team
     .row
       .four.columns
         +short-profile(

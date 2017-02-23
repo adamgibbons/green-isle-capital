@@ -1,7 +1,8 @@
-@green: #00A94F;
-
+@import url('https://fonts.googleapis.com/css?family=Cutive');
 @import 'normalize.css';
 @import 'skeleton.css';
+
+@green: #00A94F;
 
 body.site {
   font-size: 18px;
@@ -68,7 +69,12 @@ body.site {
 }
 
 h1 {
-  margin-bottom: 1em;
+  font-size: 2em;
+  margin: 1em 0;
+}
+
+.slab {
+  font-family: 'Cutive', serif;
 }
 
 .img-container {
@@ -103,6 +109,16 @@ h1 {
   .name {
     border-bottom: 2px solid @green;
     padding-bottom: .33em;
+  }
+}
+
+.portfolio-company {
+  h1.slab {
+    border-bottom: 2px solid @green;
+    padding-bottom: .33em;
+  }
+  .img-container {
+    margin: 1em 0;
   }
 }
 

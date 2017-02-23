@@ -1,13 +1,14 @@
 extends base.html
 
 block content
-  .container
-    h1=title
-    h2=llc_name
-  .container
-    .img-container
-      img(src=`/img/portfolio/${machine_name}.jpg`)
-    p machine_name: #{machine_name}
-    if url
-      p url: #{url}
-    div!=contents
+  .container.portfolio-company
+    .row
+      .six.columns
+        .img-container
+          img(src=`/img/portfolio/${machine_name}.jpg`)
+      .six.columns
+        h1.slab=llc_name
+        p: strong=title
+        if url
+          p url: #{url}
+        div!=contents
