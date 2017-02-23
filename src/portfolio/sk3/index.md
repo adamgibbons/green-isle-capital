@@ -1,14 +1,9 @@
 ---
-title: Agnes Becerra
+title: Sanky Panky 3 (2017)
+llc_name: SK3 LLC
 description: This is the description
-layout: team-member.html
-name: Agnes Becerra
-position_title: Accountant
-phone: (787) 366-4008
-email: agnes@greeenislecapital.com
-machine_name: agnes-becerra
+layout: portfolio-company.html
+machine_name: sk3
 ---
 
-Agnes joined Green Isle in mid 2016. She has been in charge of accounting for the Fund’s film project investments.
-
-She is a candidate for a Bachelor’s degree in Business-Marketing in the Inter-American University of Puerto Rico.
+Green Isle loaned SK3 LLC $2 million to film Sanky Panky 3, the third installment of one of the most successful Hispanic movie franchises. Filming took place in Puerto Rico and the film is slated to be released in 2017.

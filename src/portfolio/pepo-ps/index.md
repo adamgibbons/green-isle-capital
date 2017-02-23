@@ -1,10 +1,12 @@
 ---
-title: Agnes Becerra
+title: Pepo Pal Senado (2016)
+llc_name: Pepo PS LLC
 description: This is the description
 layout: portfolio-company.html
-machine_name: agnes-becerra
+machine_name: pepo-ps
+url:
 ---
 
-Agnes joined Green Isle in mid 2016. She has been in charge of accounting for the Fund’s film project investments.
+The Fund loaned $717,500 for the filming and marketing of the movie Pepo Pal Senado.
 
-She is a candidate for a Bachelor’s degree in Business-Marketing in the Inter-American University of Puerto Rico.
+The movie was successfully launched in 32 theaters in Puerto Rico, 5 theaters in Orlando, 1 theater in Tampa and 2 theaters in New York and 1 theater in New Jersey.

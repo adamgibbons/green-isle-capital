@@ -21,6 +21,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
+  z-index: 10;
   @media (min-width: 750px) {
     background-color: @green;
     padding: 0 0 1em;
@@ -90,5 +91,21 @@ body {
   .name {
     border-bottom: 2px solid @green;
     padding-bottom: .33em;
+  }
+}
+
+.company {
+  background-color: #eee;
+  padding: 1em .33em;
+  margin-bottom: 3em;
+  .llc {
+    border-bottom: 1px solid #aaa;
+    margin-bottom: 1em;
+    paddign-bottom: .66em;
+    text-transform: uppercase;
+  }
+  .name {
+    font-size: 1.2em;
+    margin: .66em 0;
   }
 }

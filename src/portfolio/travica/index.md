@@ -1,14 +1,9 @@
 ---
-title: Agnes Becerra
+title: Vico C- El Filósofo (2016)
+llc_name: TRAVICA LLC
 description: This is the description
-layout: team-member.html
-name: Agnes Becerra
-position_title: Accountant
-phone: (787) 366-4008
-email: agnes@greeenislecapital.com
-machine_name: agnes-becerra
+layout: portfolio-company.html
+machine_name: travica
 ---
 
-Agnes joined Green Isle in mid 2016. She has been in charge of accounting for the Fund’s film project investments.
-
-She is a candidate for a Bachelor’s degree in Business-Marketing in the Inter-American University of Puerto Rico.
+The Fund loaned $1.2 million for the film based on the life of Vico C. Regarded by many as the father of urban music, Vico C, is a musical icon in Puerto Rico and around the world. This is a biopic project that is expected to be a success not only with the Puerto Rican market but also Latin American markets where Vico C was an icon during his career.

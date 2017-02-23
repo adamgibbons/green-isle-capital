@@ -1,14 +1,10 @@
 ---
-title: Agnes Becerra
+title: PRASC
+llc_name: Puerto Rico Ambulatory Surgery Centers/Vista Ambulatory Surgery Centers
 description: This is the description
-layout: team-member.html
-name: Agnes Becerra
-position_title: Accountant
-phone: (787) 366-4008
-email: agnes@greeenislecapital.com
-machine_name: agnes-becerra
+layout: portfolio-company.html
+machine_name: prasc
+url: http://mivistapr.com/vowp/
 ---
 
-Agnes joined Green Isle in mid 2016. She has been in charge of accounting for the Fund’s film project investments.
-
-She is a candidate for a Bachelor’s degree in Business-Marketing in the Inter-American University of Puerto Rico.
+The holding company for ambulatory surgical centers (“ASC”) in Puerto Rico. The company builds and operates the ambulatory surgical centers and maintains a controlling interest while partnering with experienced surgeons who will perform surgery’s and hold a minority ownership. Current centers include Vista Ophthalmic in Guaynabo, P.R. and soon to open Caguas ASC and San Juan ASC. http://mivistapr.com/vowp/

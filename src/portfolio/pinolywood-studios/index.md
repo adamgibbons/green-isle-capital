@@ -1,14 +1,9 @@
 ---
-title: Agnes Becerra
+title: Piñolywood Studios
+llc_name: Piñolywood Studios LLC
 description: This is the description
-layout: team-member.html
-name: Agnes Becerra
-position_title: Accountant
-phone: (787) 366-4008
-email: agnes@greeenislecapital.com
-machine_name: agnes-becerra
+layout: portfolio-company.html
+machine_name: pinolywood-studios
 ---
 
-Agnes joined Green Isle in mid 2016. She has been in charge of accounting for the Fund’s film project investments.
-
-She is a candidate for a Bachelor’s degree in Business-Marketing in the Inter-American University of Puerto Rico.
+Piñolywood Studios operates as a film distributor focused on Hispanic market films. The company purchased the rights and launching to market the movie Tuberculo Presidente and the television rights to Puerto Rico of Tuberculo Gourmet, the highest grossing movie in the Dominican Republic in 2015. The company has the theatrical rights to Tuberculo Presidente in the United States.

@@ -1,8 +1,25 @@
 extends base.html
 
+mixin company(human, llc, machine)
+  .company
+    .llc=llc
+    .img-container
+      img(src=`/img/portfolio/${machine}.jpg`)
+    .name=human
+
 block content
   .container
-    h1 Our Portfolio Companies
+    .row
+      .twelve.columns
+        h1 Our Portfolio Companies
   .container
-    p foo
-    
+    .row
+      .four.columns
+        +company('Vico C- El Filósofo (2016)', 'TRAVICA LLC', 'travica')
+        +company('Natural Ventures LLC', 'Natural Ventures LLC', 'natural-ventures')
+      .four.columns
+        +company('Sanky Panky 3 (2017)', 'SK3 LLC', 'sk3')
+        +company('Piñolywood Studios', 'Piñolywood Studios LLC', 'pinolywood-studios')
+      .four.columns
+        +company('Puerto Rico Ambulatory Surgery Centers/Vista Ambulatory Surgery Centers', 'PRASC LLC', 'prasc')
+        +company('Pepo Pal Senado (2016)', 'Pepo PS LLC', 'pepo-ps')
