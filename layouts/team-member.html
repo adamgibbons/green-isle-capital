@@ -1,21 +1,44 @@
 extends base.html
 
+mixin person(machine, full_name, title, email, phone)
+  .pill
+    .full-name=full_name
+    .title=title
+    .email=email
+    .phone=phone
+
 block content
   .team-member
     .container
       .row
-        .five.columns.align-right
-
+        .eight.columns
           h1.name.slab #{name}
-
-          p #{position_title}
+          p(style="text-transform:uppercase; font-weight: 600; margin-left: 1em; font-size: .95em;") #{position_title}
             br
             | #{phone}
             br
             | #{email}
 
-        .seven.columns
-          .headshot.img-container
-            img(src=`/img/${machine_name}.jpg`)
-
           div!=contents
+        .four.columns
+          +person(
+            'carlos-nido',
+            'Carlos J. Nido',
+            'President/ Executive Producer',
+            'carlos@greeenislecapital.com',
+            '(787) 406-2717'
+          )
+          +person(
+            'alberto-sanchez',
+            'Alberto Baco Sanchez',
+            'Financial Analyst',
+            'alberto@greenislecapital.com',
+            '(787) 243-9757'
+          )
+          +person(
+            'agnes-becerra',
+            'Agnes Becerra',
+            'Accountant',
+            'agnes@greenislecapital.com',
+            '(787) 366-4008'
+          )

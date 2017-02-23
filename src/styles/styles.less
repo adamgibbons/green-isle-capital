@@ -147,3 +147,19 @@ h1 {
     margin: .66em 0 0;
   }
 }
+
+.pill {
+  border-radius: 5px;
+  margin: 0 0 1em;
+  padding: 1em;
+  color: @green;
+  &:hover {
+    color: darken(@green, 5%);
+    background-color: #eee;
+    cursor: pointer;
+  }
+  &.active {
+    background-color: @green;
+    color: white;
+  }
+}
