@@ -1,11 +1,24 @@
 extends base.html
 
 mixin person(machine, full_name, title, email, phone)
-  .pill
+  .pill(id=machine)
     .full-name=full_name
     .title=title
     .email=email
     .phone=phone
+    script.
+      $(function() {
+        var $el = $('##{machine}');
+
+        if (window.location.pathname.indexOf('/team/#{machine}') !== -1) {
+          $el.addClass('active')
+        }
+
+        $el.click(function (e) {
+          window.location.pathname = '/team/' + '#{machine}';
+        })
+
+      })
 
 block content
   .team-member
