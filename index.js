@@ -24,7 +24,8 @@ Metalsmith(__dirname)
   }))
   .use(browserify({
     dest: 'scripts/index.js',
-    entries: ['./src/scripts/index.js']
+    entries: ['./src/scripts/index.js'],
+    watch: true
   }))
   .use(
     watch({
