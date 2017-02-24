@@ -1,12 +1,19 @@
 extends base.html
 
 mixin company(human, llc, machine)
-  .company
-    .llc
-      a(href=`/portfolio/${machine}`) #{llc}
+  .company(id=machine)
+    .llc=llc
     .img-container
       img(src=`/img/portfolio/${machine}.jpg`)
     .name=human
+    script.
+      $(function() {
+        var $el = $('##{machine}');
+        $el.click(function (e) {
+          window.location.pathname = '/portfolio/' + '#{machine}';
+        })
+      })
+
 
 block content
   .container

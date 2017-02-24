@@ -136,14 +136,18 @@ h1 {
   margin-bottom: 3em;
   border: 1px solid #ddd;
   border-radius: 5px;
+  cursor: pointer;
+  &:hover {
+    border-color: @green;
+  }
   .llc {
-    border-bottom: 1px dotted #eee;
+    border-bottom: 1px dotted #ddd;
     margin-bottom: 1em;
     padding-bottom: .66em;
     text-transform: uppercase;
-    a {
-      text-decoration: none;
-    }
+    font-weight: 100;
+    font-size: .9em;
+    color: #666;
   }
   .name {
     margin: .66em 0 0;
