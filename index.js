@@ -4,6 +4,7 @@ var layouts     = require('metalsmith-layouts');
 var permalinks  = require('metalsmith-permalinks');
 var less        = require('metalsmith-less');
 var watch       = require('metalsmith-watch');
+var browserify  = require('metalsmith-browserify');
 
 Metalsmith(__dirname)
   // .metadata({
@@ -20,6 +21,10 @@ Metalsmith(__dirname)
   .use(less())
   .use(layouts({
     engine: 'pug'
+  }))
+  .use(browserify({
+    dest: 'scripts/index.js',
+    entries: ['./src/scripts/index.js']
   }))
   .use(
     watch({
