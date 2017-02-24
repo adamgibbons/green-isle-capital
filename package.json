@@ -11,6 +11,7 @@
     "metalsmith-permalinks": "^0.5.0",
     "metalsmith-watch": "^1.0.3",
     "pug": "^2.0.0-beta11",
+    "s3-upload-dir": "^0.1.0",
     "watchify": "^3.9.0"
   }
 }
