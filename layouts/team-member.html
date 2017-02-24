@@ -1,11 +1,9 @@
 extends base.html
 
-mixin person(machine, full_name, title, email, phone)
+mixin person(machine, full_name, title)
   .pill(id=machine)
-    .full-name=full_name
+    .full-name: strong=full_name
     .title=title
-    .email=email
-    .phone=phone
     script.
       $(function() {
         var $el = $('##{machine}');
@@ -24,34 +22,28 @@ block content
   .team-member
     .container
       .row
-        .eight.columns
-          h1.name.slab #{name}
-          p(style="text-transform:uppercase; font-weight: 600; margin-left: 1em; font-size: .95em;") #{position_title}
-            br
-            | #{phone}
-            br
-            | #{email}
-
-          div!=contents
         .four.columns
           +person(
             'carlos-nido',
             'Carlos J. Nido',
-            'President/ Executive Producer',
-            'carlos@greeenislecapital.com',
-            '(787) 406-2717'
+            'President/ Executive Producer'
           )
           +person(
             'alberto-sanchez',
             'Alberto Baco Sanchez',
-            'Financial Analyst',
-            'alberto@greenislecapital.com',
-            '(787) 243-9757'
+            'Financial Analyst'
           )
           +person(
             'agnes-becerra',
             'Agnes Becerra',
-            'Accountant',
-            'agnes@greenislecapital.com',
-            '(787) 366-4008'
+            'Accountant'
           )
+
+        .eight.columns
+          h1.name.slab #{name}
+          .subheader
+            .position=position_title
+            .phone=phone
+            .email: a(href=`mailto:${email}`) #{email}
+
+          div!=contents
