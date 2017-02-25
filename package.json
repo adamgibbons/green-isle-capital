@@ -1,6 +1,9 @@
 {
   "name": "green-isle-capital",
   "private": true,
+  "scripts": {
+      "s3:clean": "aws s3 rm s3://green-isle-capital/ --recursive"
+    },
   "dependencies": {
     "browserify": "^14.1.0",
     "metalsmith": "^2.1.0",
