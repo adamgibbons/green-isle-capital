@@ -56,30 +56,28 @@ body.site {
   left: 0;
   width: 100%;
   z-index: 10;
-  @media (min-width: 750px) {
-    background-color: @green;
-    padding: 0 0 1em;
+  background-color: @green;
+  padding: 0 0 1em;
+  margin: 0;
+  .logo {
     margin: 0;
-    .logo {
-      margin: 0;
-      padding: 0;
-      position: relative;
-      top: .5em;
-    }
-    ul {
-      text-align: right;
-      position: relative;
-      font-size: 1.1em;
-      top: 3.3em;
-      li {
-        display: inline;
-        a {
-          padding: 1em;
-          text-decoration: none;
-          color: white;
-          &:hover {
-            text-decoration: underline;
-          }
+    padding: 0;
+    position: relative;
+    top: .5em;
+  }
+  ul {
+    text-align: right;
+    position: relative;
+    font-size: 1.1em;
+    top: 3.3em;
+    li {
+      display: inline;
+      a {
+        padding: 1em;
+        text-decoration: none;
+        color: white;
+        &:hover {
+          text-decoration: underline;
         }
       }
     }
