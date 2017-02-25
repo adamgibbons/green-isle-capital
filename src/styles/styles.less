@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Cutive|Open+Sans:300,400,600,700');
 @import 'normalize.css';
 @import 'skeleton.css';
+@import 'unslider.css';
+@import 'unslider-dots.css';
 
 @green: #00A94F;
 
@@ -180,4 +182,42 @@ h1 {
     background-color: darken(@green, 5%);
     color: white;
   }
+}
+
+.unslider {
+  margin-bottom: 3em;
+  .carousel {
+    ul li {
+      text-align: center;
+      margin: 0 auto 2em;
+      cursor: pointer;
+      img {
+        max-height: 300px;
+        margin-bottom: 2em;
+      }
+      .slide-header {
+        .slab;
+        display: block;
+        color: #444;
+      }
+      .slide-subheader {
+        display: block;
+        font-style: italic;
+        color: #555;
+      }
+    }
+  }
+}
+
+.unslider-nav ol li {
+  border-color: @green;
+  &.unslider-active {
+    background-color: @green;
+  }
+}
+
+.green-bg {
+  background-color: @green;
+  color: white;
+  padding: 3em 0 2em;
 }
