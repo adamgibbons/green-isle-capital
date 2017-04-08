@@ -6,6 +6,16 @@ block content
     .row
       .carousel
         ul
+          li(data-link='pinolywood-studios')
+            img(src='/img/portfolio/pinolywood-studios.jpg')
+            span.slide-header Piñolywood Studios LLC
+          li(data-link='natural-ventures')
+            img(src='/img/portfolio/natural-ventures.jpg')
+            span.slide-header Natural Ventures LLC
+          li(data-link='prasc')
+            img(src='/img/portfolio/prasc.jpg')
+            span.slide-header PRASC
+            span.slide-subheader Puerto Rico Ambulatory Surgery Centers/Vista Ambulatory Surgery Centers
           li(data-link='sk3')
             img(src='/img/portfolio/sk3.jpg')
             span.slide-header SK3 LLC
@@ -18,16 +28,6 @@ block content
             img(src='/img/portfolio/travica.jpg')
             span.slide-header Travica LLC
             span.slide-subheader Vico C &mdash; El Filósofo (2016)
-          li(data-link='natural-ventures')
-            img(src='/img/portfolio/natural-ventures.jpg')
-            span.slide-header Natural Ventures LLC
-          li(data-link='pinolywood-studios')
-            img(src='/img/portfolio/pinolywood-studios.jpg')
-            span.slide-header Piñolywood Studios LLC
-          li(data-link='prasc')
-            img(src='/img/portfolio/prasc.jpg')
-            span.slide-header PRASC
-            span.slide-subheader Puerto Rico Ambulatory Surgery Centers/Vista Ambulatory Surgery Centers
 
   .green-bg
     .container
@@ -38,7 +38,10 @@ block scripts
   script.
     $('.carousel').unslider({
       autoplay: false,
-      arrows: true
+      arrows: {
+        prev: '<a class="unslider-arrow prev"><img src="/img/arrow-left.png"/></a>',
+        next: '<a class="unslider-arrow next"><img src="/img/arrow-right.png"/></a>',
+      }
     })
 
     $('[data-link]').click(function (e) {
